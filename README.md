@@ -1,4 +1,8 @@
-# Ultimate Conduits
+<p align="center">
+  <img src="images/icon.png" alt="Ultimate Conduits" width="128">
+</p>
+
+# <p align="center">Ultimate Conduits</p>
 
 <p align="center">
   <strong>EnderIO Add-on — Ultimate Tier Conduits with Max Transfer Rates</strong>
@@ -9,6 +13,10 @@
   <img src="https://img.shields.io/badge/NeoForge-21.1.77+-orange.svg" alt="NeoForge">
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+</p>
+
+<p align="center">
+  <img src="images/screenshot.png" alt="Ultimate Conduits In-Game" width="700">
 </p>
 
 [日本語](#japanese) | [English](#english)
