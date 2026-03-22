@@ -11,10 +11,6 @@
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
 </p>
 
-<p align="center">
-  <img src="images/screenshot.png" alt="Ultimate Conduits In-Game" width="700">
-</p>
-
 [日本語](#japanese) | [English](#english)
 
 ---
