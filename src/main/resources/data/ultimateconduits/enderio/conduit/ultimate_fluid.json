@@ -1,0 +1,10 @@
+{
+  "type": "enderio:fluid",
+  "description": {
+    "translate": "conduit.ultimateconduits.ultimate_fluid"
+  },
+  "does_support_priority": true,
+  "is_multi_fluid": true,
+  "texture": "ultimateconduits:block/conduit/ultimate_fluid",
+  "transfer_rate": 2147483647
+}

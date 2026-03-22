@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "enderio:chemical",
+  "description": {
+    "translate": "conduit.ultimateconduits.ultimate_chemical"
+  },
+  "is_multi_chemical": true,
+  "texture": "ultimateconduits:block/conduit/ultimate_chemical",
+  "transfer_rate": 2147483647
+}

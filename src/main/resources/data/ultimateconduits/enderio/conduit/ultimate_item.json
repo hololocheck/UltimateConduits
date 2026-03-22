@@ -1,0 +1,8 @@
+{
+  "type": "enderio:item",
+  "description": {
+    "translate": "conduit.ultimateconduits.ultimate_item"
+  },
+  "texture": "ultimateconduits:block/conduit/ultimate_item",
+  "transfer_rate": 2147483647
+}
