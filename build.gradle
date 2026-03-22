@@ -1,0 +1,67 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '2.0.42-beta'
+}
+
+version = mod_version
+group = mod_group
+
+repositories {
+    mavenLocal()
+    maven {
+        name = 'NeoForge'
+        url = 'https://maven.neoforged.net/releases'
+    }
+    maven {
+        name = 'EnderIO Maven'
+        url = 'https://maven.tterrag.com/'
+    }
+    maven {
+        name = 'Modmaven'
+        url = 'https://modmaven.dev/'
+    }
+}
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = neo_version
+
+    parchment {
+        mappingsVersion = parchment_mappings_version
+        minecraftVersion = parchment_minecraft_version
+    }
+
+    runs {
+        client {
+            client()
+            systemProperty 'neoforge.enabledGameTestNamespaces', mod_id
+        }
+        server {
+            server()
+            programArgument '--nogui'
+            systemProperty 'neoforge.enabledGameTestNamespaces', mod_id
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+dependencies {
+    // EnderIO is provided at runtime; compile against its API
+    // If EnderIO publishes a Maven artifact, use compileOnly here.
+    // For now, we use the local jar for compilation reference.
+    compileOnly files("../enderio-${enderio_version}.jar")
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

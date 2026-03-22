@@ -1,0 +1,8 @@
+{
+  "type": "enderio:energy",
+  "description": {
+    "translate": "conduit.ultimateconduits.ultimate_energy"
+  },
+  "texture": "ultimateconduits:block/conduit/ultimate_energy",
+  "transfer_rate": 2147483647
+}
