@@ -35,24 +35,6 @@
 | 📦 Ultimate Item Conduit | 2,147,483,647 items/op | 最上位アイテムコンジット |
 | 🧪 Ultimate Chemical Conduit | 2,147,483,647 mB/t | Mekanism連携、マルチケミカル対応 |
 
-### 🔨 クラフトレシピ
-
-全レシピ共通パターン:
-```
-B B B
-I C I
-B B B
-```
-
-| コンジット | C (中央) | I (側面) | B (外枠) |
-|-----------|---------|---------|---------|
-| Ultimate Energy | Ender Energy Conduit | End Steel Ingot | Conduit Binder |
-| Ultimate Fluid | Ender Fluid Conduit | End Steel Ingot | Conduit Binder |
-| Ultimate Item | Ender Item Conduit | End Steel Ingot | Conduit Binder |
-| Ultimate Chemical | Ultimate Pressurized Tube (Mekanism) | End Steel Ingot | Conduit Binder |
-
-各レシピで **8個** クラフトされます。
-
 ### 🔧 ビルド方法
 
 ```bash
@@ -82,24 +64,6 @@ A NeoForge add-on mod for **EnderIO** that adds ultimate tier conduits. All cond
 | 💧 Ultimate Fluid Conduit | 2,147,483,647 mB/t | Multi-fluid support, priority configurable |
 | 📦 Ultimate Item Conduit | 2,147,483,647 items/op | Top-tier item conduit |
 | 🧪 Ultimate Chemical Conduit | 2,147,483,647 mB/t | Mekanism integration, multi-chemical support |
-
-### 🔨 Crafting Recipes
-
-Common recipe pattern:
-```
-B B B
-I C I
-B B B
-```
-
-| Conduit | C (Center) | I (Sides) | B (Border) |
-|---------|-----------|-----------|-----------|
-| Ultimate Energy | Ender Energy Conduit | End Steel Ingot | Conduit Binder |
-| Ultimate Fluid | Ender Fluid Conduit | End Steel Ingot | Conduit Binder |
-| Ultimate Item | Ender Item Conduit | End Steel Ingot | Conduit Binder |
-| Ultimate Chemical | Ultimate Pressurized Tube (Mekanism) | End Steel Ingot | Conduit Binder |
-
-Each recipe yields **8 conduits**.
 
 ### 🔧 Build
 
